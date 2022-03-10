@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+nav{
+    background-color: blueviolet;
+    height: 40px;
+    line-height: 40px;
+}
+body{
+    background-color: lightsalmon;
+}
+.tab1{
+    margin-top: 5vh;
+    margin-left: 5vw;
+
+}
+.tab1 th{
+    color: red;
+    background-color: palevioletred;
+    padding: 7px 10px;
+}
+table{
+    background-color: lightgray;
+    padding: 6px;
+}
+.tab1 td{
+    color: black;
+    padding: 7px;
+}
+.tab1 tr:nth-child(odd) {background-color: lightcoral}
+.tab1 tr:nth-child(even){background-color: lightgreen;}
